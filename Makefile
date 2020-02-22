@@ -15,8 +15,7 @@ deploy:
 	@hugo $(DISTR_PARAMS)
 	@find $(DEPLOY_DIR) -mindepth 1 -maxdepth 1 -not -name .git -print0 | xargs -0 rm -fr --
 	@cp -R $(PUBLIC_DIR)/ $(DEPLOY_DIR)/
-	@cd $(DEPLOY_DIR)/
-	@git add . && git commit -a -m "auto-generated" && git push
+	@cd $(DEPLOY_DIR)/ && git add . && git commit -a -m "auto-generated" && git push
 
 usage: ## List available targets
 	@echo
