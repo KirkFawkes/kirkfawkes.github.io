@@ -6,7 +6,7 @@ DISTR_PARAMS=--environment distribution
 default: usage
 
 generate: ## Generate site
-	@hugo 
+	@hugo -D
 
 server: ## Start Hugo server for realtime updates
 	@hugo server -D
