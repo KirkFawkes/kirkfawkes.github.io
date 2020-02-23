@@ -1,0 +1,158 @@
+body  {
+	background-color: #f5f5f5;
+}
+
+.content {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	min-height: 45rem;
+}
+
+.content > .row {
+	padding-top: 1.0rem;
+	/*box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.18);*/
+}
+
+.content > .row > .summary {
+	background-color: white;
+	padding: 1rem;
+	min-height: 20.75rem;
+	overflow: hidden;
+	box-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.2);
+	color: #444;
+}
+
+.summary > .title {
+}
+
+.summary > .tags-list .tag {
+	bottom: 1.3rem;
+	font-size: 1.5rem;
+	padding: 0.4rem;
+
+	opacity: 0.5;
+	-webkit-transition: opacity 0.25s ease-in-out;
+	-moz-transition: opacity 0.25s ease-in-out;
+	transition: opacity 0.25s ease-in-out;
+}
+
+.summary > .tags-list > a .tag  {
+	color: white;
+}
+
+.summary > .tags-list .tag:hover {
+	opacity: 1;
+	-webkit-transition: opacity 0.25s ease-in-out;
+	-moz-transition: opacity 0.25s ease-in-out;
+	transition: opacity 0.25s ease-in-out;
+	/*transition: opacity 0.3s, visibility 0.3s;*/
+}
+
+.summary > .row > div > hr {
+	margin: 0 0 1rem 0;
+	border-color: #27558A;
+	overflow: hidden;
+}
+
+.summary .preview {
+	position: absolute;
+	right: 2px;
+}
+
+.summary-bottom-border {
+	position: absolute;
+	background-color: #4A90E2;
+	bottom: 0;
+	width: 100%;
+	height: 0.2rem;
+	z-index: 256;
+	right: 0;
+}
+
+/* Tags icons and colors */
+
+.tags-list .tag-iphone {
+	background-color: #397BC7;
+}
+
+.tags-list .tag-ipad {
+	background-color: #E01717;
+}
+
+.tags-list .tag-apple {
+	background-color: #003675;
+}
+
+.tags-list .tag-android {
+	background-color: #36A000;
+}
+
+.tags-list .tag-web {
+	background-color: #13D8B4;
+}
+
+/* */
+ul.pagination {
+	display: inline-block;
+
+	margin-bottom: 0.5rem;
+	padding-right: 0.75rem;
+}
+
+ul.pagination > li.current > a {
+	background: #397BC7;
+}
+
+ul.pagination > li.current > a:hover {
+	background: #4A90E2;
+}
+
+.screenshot {
+}
+
+.footer {
+	background-color: #27558A;
+	color: #C0CFE6;
+	font-size: 0.75rem;
+	/*padding: 0.5rem 0;*/
+
+}
+
+div.named-line {
+	font-size: 0.75rem;
+	height: 2rem;
+	position: relative;
+	margin-bottom: 1rem;
+}
+
+div.named-line .line {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	/*transform: translate(0, 50%);*/
+
+	height: 1px;
+	border-bottom: 1px solid #D0CECE;
+	width: 100%;
+}
+
+div.named-line .title {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+
+	background-color: white;
+	left: 2em;
+	padding: 0.12rem 0.5rem;
+	border: 1px solid #D0CECE;
+}
+
+div.post-detailed-content > hr {
+	border-color: #D0CECE !important;
+}
+
+img.avatar {
+	margin-right: 0.5rem;
+	margin-bottom: 0.5rem;
+}
