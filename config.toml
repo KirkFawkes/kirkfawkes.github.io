@@ -1,3 +1,17 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+theme = "hugo-foundation-clean"
+
+pygmentsuseclasses = false
+
+googleAnalytics = "UA-69152920-1"
+paginate = 10
+disqusShortname = "kirks-blog"
+
+[permalinks]
+	post = "/post/:filename"
+
+[params.tags]
+	"test" = "fi-mobile"
+

@@ -9,7 +9,7 @@ generate: ## Generate site
 	@hugo 
 
 server: ## Start Hugo server for realtime updates
-	@hugo server
+	@hugo server -D
 
 deploy:
 	@hugo $(DISTR_PARAMS)
